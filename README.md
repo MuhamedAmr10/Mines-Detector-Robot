@@ -1,4 +1,7 @@
 # Mines-Detector-Robot
+
+## Introduction 
+
 ##### An AVR project
 Detecting robots are designed to cover the maximum possible area of a landmine field for the detection of landmines.
 The robot should give an alarm in case of mine detected and stop moving for a while then continue detection .
@@ -19,6 +22,13 @@ Metal detectors are commonly used as sensors to detect landmines since most land
 - Auto mode: Fully autonomous operation.
 
 - Manual mode: Direct control by the operator
+
+##### Full description of the module
+
+[![Project Video](https://github.com/MuhamedAmr10/Mines-Detector-Robot/assets/168368256/2b97a48e-230d-44b2-8d7a-a25ce10acc72)](https://github.com/MuhamedAmr10/Mines-Detector-Robot/assets/168368256/6773b7ae-28ed-4d2e-bc0a-ac24cba79cb3
+)
+
+
 
   
 
@@ -104,6 +114,38 @@ Making simulation in proteus to test project
 ###### step six :
 
 Burn code To Atmega32 using USBASP 
+
+
+## Configuration
+
+###### ALL HAL Drivers Have Configurations
+
+- ##### ULTRA-Sonic Driver (HUS) :
+  Minimum Distance , checking time , port and pin of trigger , timer1 prescaler
+
+
+  <img src="https://github.com/MuhamedAmr10/Mines-Detector-Robot/assets/168368256/6de45d70-813f-4993-9c7f-aa11b84733ee" width="400" >
+
+###### Ex Configuration of minimum distance  :
+
+```
+#define HUS_MIN_DISTANCE			40
+
+```
+
+- ##### The other drivers :
+  
+<div>
+<img src="https://github.com/MuhamedAmr10/Mines-Detector-Robot/assets/168368256/e7cbda42-bfa2-4aef-bc36-5a4d4b5076c6" width="400" height ="200" >
+<img src="https://github.com/MuhamedAmr10/Mines-Detector-Robot/assets/168368256/3eaf47e2-386b-4f5a-ada1-c13aee71c9dd" width="400" height ="200" >
+<img src="https://github.com/MuhamedAmr10/Mines-Detector-Robot/assets/168368256/341ec64b-5e8a-4252-b560-9802529164ec" width="400" height ="200" >
+</div>
+
+
+  
+  
+
+
 
 
 
