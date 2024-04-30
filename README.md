@@ -29,8 +29,19 @@ Metal detectors are commonly used as sensors to detect landmines since most land
 )
 
 
+## Table of contents
 
-  
+- ##### Requirements
+- ##### Recommended modules
+- ##### Features
+- ##### Installation
+- ##### Configuration
+- ##### Road Map
+- ##### Hardware interface
+
+
+
+      
 
 ## Requirements
 
@@ -143,7 +154,20 @@ Burn code To Atmega32 using USBASP
 
 
   
+
   
+## Road Map
+
+
+###### Software road map
+
+<img src="https://github.com/MuhamedAmr10/Mines-Detector-Robot/assets/168368256/f481772b-ffb5-4d88-af99-84fc54ea2b33" >
+
+
+## Hardware Interface
+
+<img src="https://github.com/MuhamedAmr10/Mines-Detector-Robot/assets/168368256/6ecb4f08-2a7a-47c3-b4b6-aae2e207d031" >
+
 
 
 
