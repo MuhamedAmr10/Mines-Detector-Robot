@@ -9,13 +9,14 @@
 #ifndef HMOTOR_CONFIG_H_
 #define HMOTOR_CONFIG_H_
 
+
 #define HMOTOR_PORT  		MDIO_PORTC
 #define HMOTOR_PIN_INT1		0
 #define HMOTOR_PIN_INT2		1
 #define HMOTOR_PIN_INT3		2
 #define HMOTOR_PIN_INT4		3
-#define HMOTOR_PIN_ENA		4
-#define HMOTOR_PIN_ENB		5
 
+
+//Connect ENA , ENB Pins To OC0/PB3
 
 #endif
