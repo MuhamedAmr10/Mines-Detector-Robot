@@ -1,30 +1,32 @@
 # Mines-Detector-Robot
+
+###### An AVR project
+
 <br/>
 
 ## Introduction 
 
-##### An AVR project
 Detecting robots are designed to cover the maximum possible area of a landmine field for the detection of landmines.
 The robot should give an alarm in case of mine detected and stop moving for a while then continue detection .
 
 I built my project using ATmega32 , as ATmega32 is easy to program AVR controller. With appreciable program memory it can satisfy most EMBEDDED SYSTEMS.
 and writing code using C and Embedded C Programming.
 
-##### Objective
+#### Objective
 The primary goal of a Mine detection robot is to identify and locate buried landmines. Detecting landmines is crucial for the safety of army personnel and civilians living in war-prone areas.
 
 
-##### Detection Mechanism
+#### Detection Mechanism
 Metal detectors are commonly used as sensors to detect landmines since most landmines have metal components. The robot travels over the landmine field, scanning the ground using metal detectors to identify buried mines
 
-##### Modes of Operation
+#### Modes of Operation
 ###### The robot operates in different modes:
 
 - Auto mode: Fully autonomous operation.
 
 - Manual mode: Direct control by the operator
 
-##### Full description of the module
+#### Full description of the module
 
 [![Project Video](https://github.com/MuhamedAmr10/Mines-Detector-Robot/assets/168368256/2b97a48e-230d-44b2-8d7a-a25ce10acc72)](https://github.com/MuhamedAmr10/Mines-Detector-Robot/assets/168368256/6773b7ae-28ed-4d2e-bc0a-ac24cba79cb3
 )
