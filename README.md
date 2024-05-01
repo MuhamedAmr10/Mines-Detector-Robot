@@ -1,6 +1,8 @@
 # Mines-Detector-Robot
 
-###### An AVR project
+The robot should give an alarm 
+in case of mine detected and 
+stop moving. 
 
 <br/>
 
