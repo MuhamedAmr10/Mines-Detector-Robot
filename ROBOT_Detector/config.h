@@ -2,7 +2,7 @@
  * config.h
  *
  *  Created on: May 1, 2024
- *      Author: ahmed yousif
+ *      Author: Muhamed Amr
  */
 
 #ifndef CONFIG_H_
