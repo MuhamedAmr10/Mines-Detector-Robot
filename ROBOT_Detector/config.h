@@ -11,5 +11,6 @@
 // There are two modes (APP_AUTO_MODE & APP_MANUAL_MODE )
 
 #define APP_MODE 	APP_MANUAL_MODE
+//#define APP_MODE  APP_AUTO_MODE
 
 #endif /* CONFIG_H_ */
