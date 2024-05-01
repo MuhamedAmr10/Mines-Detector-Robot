@@ -2,7 +2,7 @@
  * interface.h
  *
  *  Created on: May 1, 2024
- *      Author: ahmed yousif
+ *      Author: Muhamed Amr
  */
 
 #ifndef INTERFACE_H_
