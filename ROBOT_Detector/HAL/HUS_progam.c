@@ -46,6 +46,8 @@ void HUS_voidInit(void)
 	MTIM_voidTimerDelay(MTIM_TIMER1A, HUS_CHECKING_TIME);
 
     MTIM_voidEnableInterrupt(MTIM_INTERRUPT_T1_OVF);
+
+    //Don't worry ICU Interrupt is Enabled in Trig function
 	MTIM_voidSetCallback(HUS_voidEcho,MTIM_INTERRUPT_T1_ICU);
 	MTIM_voidSetCallback(HUS_voidTrig,MTIM_INTERRUPT_T1_OVF);
 
@@ -77,11 +79,8 @@ void HUS_voidEcho(void)
 	else
 	{
 		L_u16PulseEnd = MTIM_u16ReadingICU();
-		////MTIM_voidStopTimer(MTIM_TIMER1A);    //// Stopping this Timer will stop the continuity of the measurement process! Instead use another Timer (e.g. Timer0).
 
-		////A
 		MTIM_voidICUSelectEdge(MTIM_EDGE_SELECT_RISING);
-		////A
 
 		L_u16Distance = (f32)17150 * (L_u16PulseEnd - L_u16PulseStart) * ((f32)HUS_TIMER1_PRESCALER_VALUE / F_CPU);
 
@@ -102,12 +101,15 @@ void HUS_voidEcho(void)
 
 void HUS_voidTrig(void)
 {
-	////A
+
 	MDIO_voidSetPinValue(HUS_TRIG_PORT,HUS_TRIG_PIN,MDIO_HIGH);
 	_delay_us(10);
 	MDIO_voidSetPinValue(HUS_TRIG_PORT,HUS_TRIG_PIN,MDIO_LOW);
-	MTIM_voidResetTimer(MTIM_TIMER1A);    //// Reset Timer to maximize utilization of the timer range in the measurement process.
+
+	//// Reset Timer to maximize utilization of the timer range in the measurement process.
+	MTIM_voidResetTimer(MTIM_TIMER1A);
+
+	//Enable Input capture unit Interrupt
 	MTIM_voidEnableInterrupt(MTIM_INTERRUPT_T1_ICU);
-	////A
 
 }
