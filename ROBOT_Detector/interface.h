@@ -23,9 +23,9 @@
 #define MOVEMENT_STOP			'S'
 
 // Speed Level
-#define SPEED_FAST				'P'
+#define SPEED_FAST			'P'
 #define SPEED_NORMAL			'O'
-#define SPEED_SLOW				'I'
+#define SPEED_SLOW			'I'
 
 
 		/* 	ROBOT CONTROL AND KEY MAPPING	 */
