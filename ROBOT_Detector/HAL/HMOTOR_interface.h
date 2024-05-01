@@ -9,6 +9,9 @@
 #ifndef HMOTOR_INTERFACE_H_
 #define HMOTOR_INTERFACE_H_
 
+#define HMOTOR_SPEED_FAST			29
+#define HMOTOR_SPEED_NORMAL			28
+#define HMOTOR_SPEED_SLOW			27
 
 #define HMOTOR_DIRECTION_RIGHT 		0
 #define HMOTOR_DIRECTION_LEFT		1
@@ -18,5 +21,6 @@
 void HMOTOR_voidInit(void);
 void HMOTOR_voidStartMovement(u8 ARG_u8Direction);
 void HMOTOR_voidStopMovement(void);
+void HMOTOR_voidSpeedControl(u8 ARG_u8MotorSpeed);
 
 #endif
