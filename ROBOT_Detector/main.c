@@ -30,12 +30,7 @@
 
 int main(void)
 {
-	/*
-	//Set Pin Output For Buzzer
-	MDIO_voidSetPinDirection(MDIO_PORTB,7,MDIO_OUTPUT);
-	//By default Pin Buzzer is Low
-	MDIO_voidSetPinValue(MDIO_PORTB,7,MDIO_LOW);
-	*/
+	
 
 	//Initializing Drivers
 
