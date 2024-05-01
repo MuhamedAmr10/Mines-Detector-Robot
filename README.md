@@ -1,4 +1,5 @@
 # Mines-Detector-Robot
+<br/>
 
 ## Introduction 
 
@@ -29,7 +30,8 @@ Metal detectors are commonly used as sensors to detect landmines since most land
 )
 
 
-
+<br />
+<br />
 
 ## Table of contents
 
@@ -43,9 +45,8 @@ Metal detectors are commonly used as sensors to detect landmines since most land
 - ##### Simulation
 - ##### Hardware interface
 
-
-
-      
+<br />
+<br />
 
 ## Requirements
 
@@ -72,7 +73,8 @@ Metal detectors are commonly used as sensors to detect landmines since most land
 - optocoupler for controlling Metal-Detector Signal
   ![image](https://github.com/MuhamedAmr10/Mines-Detector-Robot/assets/168368256/5710f879-f841-4fe8-8842-b73551b567b0)
 
-
+<br />
+<br />
 
 ## Recommended modules
 
@@ -86,6 +88,8 @@ Metal detectors are commonly used as sensors to detect landmines since most land
 
 <img src="https://github.com/MuhamedAmr10/Mines-Detector-Robot/assets/168368256/40c4151e-739f-4d89-8f8d-7124775af552" width="200" >
 
+<br />
+<br />
 
 ## Features
 
@@ -95,6 +99,8 @@ Metal detectors are commonly used as sensors to detect landmines since most land
 - Mine detection
 - Remote access "Bluetooth"
 
+<br />
+<br />
 
 ## Installation
 
@@ -130,6 +136,8 @@ Making simulation in proteus to test project
 
 Burn code To Atmega32 using USBASP 
 
+<br />
+<br />
 
 ## Configuration
 
@@ -169,30 +177,36 @@ Burn code To Atmega32 using USBASP
 
 ```
 
-
-
-
-
-  
-
+<br />
+<br />
   
 ## Road Map
 
 
 ###### Software road map
+<br />
 
 <img src="https://github.com/MuhamedAmr10/Mines-Detector-Robot/assets/168368256/f481772b-ffb5-4d88-af99-84fc54ea2b33" >
+
+<br />
+<br />
+<br />
+<br />
 
 ## Analysis
 
 <img src="https://github.com/MuhamedAmr10/Mines-Detector-Robot/assets/168368256/3d962cbf-6c9c-4b84-a148-c9ba63d83c0b" >
 
+<br />
+<br />
 
 ## Simulation
 
 ###### My simulation using proteus
 [Simulation](https://drive.google.com/drive/u/0/folders/1aevleRuMcT-sCoZyqtTnewIL26lUJ_Ju)
 
+<br />
+<br />
 
 
 
