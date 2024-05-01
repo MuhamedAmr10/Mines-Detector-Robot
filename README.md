@@ -29,6 +29,8 @@ Metal detectors are commonly used as sensors to detect landmines since most land
 )
 
 
+
+
 ## Table of contents
 
 - ##### Requirements
@@ -37,6 +39,8 @@ Metal detectors are commonly used as sensors to detect landmines since most land
 - ##### Installation
 - ##### Configuration
 - ##### Road Map
+- ##### Analysis
+- ##### Simulation
 - ##### Hardware interface
 
 
@@ -135,7 +139,7 @@ Burn code To Atmega32 using USBASP
   Minimum Distance , checking time , port and pin of trigger , timer1 prescaler
 
 
-  <img src="https://github.com/MuhamedAmr10/Mines-Detector-Robot/assets/168368256/6de45d70-813f-4993-9c7f-aa11b84733ee" width="400" >
+  <img src="https://github.com/MuhamedAmr10/Mines-Detector-Robot/assets/168368256/6de45d70-813f-4993-9c7f-aa11b84733ee" width="400" height ="200" >
 
 ###### Ex Configuration of minimum distance  :
 
@@ -147,10 +151,26 @@ Burn code To Atmega32 using USBASP
 - ##### The other drivers :
   
 <div>
-<img src="https://github.com/MuhamedAmr10/Mines-Detector-Robot/assets/168368256/e7cbda42-bfa2-4aef-bc36-5a4d4b5076c6" width="400" height ="200" >
+<img src="https://github.com/MuhamedAmr10/Mines-Detector-Robot/assets/168368256/9e807c25-4335-4108-a596-dffafa61ab12" width="400" height ="200" >
 <img src="https://github.com/MuhamedAmr10/Mines-Detector-Robot/assets/168368256/3eaf47e2-386b-4f5a-ada1-c13aee71c9dd" width="400" height ="200" >
 <img src="https://github.com/MuhamedAmr10/Mines-Detector-Robot/assets/168368256/341ec64b-5e8a-4252-b560-9802529164ec" width="400" height ="200" >
+<img src="https://github.com/MuhamedAmr10/Mines-Detector-Robot/assets/168368256/e9afa9bd-a623-4409-b621-fbde376007ad" width="400" height ="200" >
 </div>
+
+- ##### Application Configuration :
+
+<img src="https://github.com/MuhamedAmr10/Mines-Detector-Robot/assets/168368256/718ec6d1-7f1e-4ebb-aa9e-fde941853d16" width="400" height ="200" >
+
+###### Ex Configuration of Application mode  :
+
+```
+//#define APP_MODE			APP_MANUAL_MODE
+#define APP_MODE			APP_AUTO_MODE
+
+```
+
+
+
 
 
   
@@ -162,6 +182,18 @@ Burn code To Atmega32 using USBASP
 ###### Software road map
 
 <img src="https://github.com/MuhamedAmr10/Mines-Detector-Robot/assets/168368256/f481772b-ffb5-4d88-af99-84fc54ea2b33" >
+
+## Analysis
+
+<img src="https://github.com/MuhamedAmr10/Mines-Detector-Robot/assets/168368256/3d962cbf-6c9c-4b84-a148-c9ba63d83c0b" >
+
+
+## Simulation
+
+###### My simulation using proteus
+[Simulation](https://drive.google.com/drive/u/0/folders/1aevleRuMcT-sCoZyqtTnewIL26lUJ_Ju)
+
+
 
 
 ## Hardware Interface
