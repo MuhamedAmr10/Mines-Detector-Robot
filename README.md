@@ -30,8 +30,7 @@ Metal detectors are commonly used as sensors to detect landmines since most land
 
 #### Full description of the module
 
-[![Project Video](https://github.com/MuhamedAmr10/Mines-Detector-Robot/assets/168368256/2b97a48e-230d-44b2-8d7a-a25ce10acc72)](https://github.com/MuhamedAmr10/Mines-Detector-Robot/assets/168368256/6773b7ae-28ed-4d2e-bc0a-ac24cba79cb3
-)
+[![Project Video](https://github.com/MuhamedAmr10/Mines-Detector-Robot/assets/168368256/2b97a48e-230d-44b2-8d7a-a25ce10acc72)](https://github.com/MuhamedAmr10/Mines-Detector-Robot/assets/168368256/b6d8d2f6-72eb-44c3-afcf-7c74ce7332b6)
 
 
 <br />
