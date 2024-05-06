@@ -36,6 +36,15 @@ Metal detectors are commonly used as sensors to detect landmines since most land
 <br />
 <br />
 
+
+## Team Members
+- Muhamed Amr Elsayed
+- Shehab Hamada Tahon
+  
+<br />
+<br />
+
+
 ## Table of contents
 
 - ##### Requirements
